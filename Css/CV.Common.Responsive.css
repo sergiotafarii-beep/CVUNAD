@@ -1,0 +1,172 @@
+
+/* ========================================================================================================================================================================================================================================================================================================================== */
+/* RESPONSIVE RULES --- OK */
+/* ========================================================================================================================================================================================================================================================================================================================== */
+
+@media(max-width:499px) {
+
+    /*modal window*/
+    div.modal-window div.window-wrapper[style*="width: 500px"] { width: 100% !important; height: 100% !important; }
+}
+
+@media(max-width:599px) {
+
+    /*modal window*/
+    div.modal-window div.window-wrapper[style*="width: 600px"] { width: 100% !important; height: 100% !important; }
+}
+
+@media(max-width:699px) {
+
+    /*modal window*/
+    div.modal-window div.window-wrapper[style*="width: 700px"] { width: 100% !important; height: 100% !important; }
+}
+
+@media(max-width:799px) {
+
+    /*modal window*/
+    div.modal-window div.window-wrapper[style*="width: 800px"] { width: 100% !important; height: 100% !important; }
+}
+
+@media(max-width:899px) {
+
+    /*modal window*/
+    div.modal-window div.window-wrapper[style*="width: 900px"] { width: 100% !important; height: 100% !important; }
+}
+
+@media(min-width:460px) {
+
+    /*buttons*/
+    div.buttons { flex-flow: row wrap; margin-bottom: 8px; }
+        div.buttons a { margin: 0px 8px 0px 0px; }
+}
+
+@media(min-width:520px) {
+
+    /*page layout*/
+    div.section-content.flex-boxes.cols-1 > div { flex: 1 1 100%; max-width: 100%; }
+    div.section-content.flex-boxes.cols-2 > div { flex: 1 1 50%; max-width: 50%; }
+    div.section-content.flex-boxes.cols-3 > div { flex: 1 1 50%; max-width: 50%; }
+    div.section-content.flex-boxes.cols-4 > div { flex: 1 1 50%; max-width: 50%; }
+    div.section-content.flex-boxes.cols-5 > div { flex: 1 1 50%; max-width: 50%; }
+    div.section-content.flex-boxes.cols-6 > div { flex: 1 1 50%; max-width: 50%; }
+}
+
+@media(min-width:600px) {
+
+    /*modal window*/
+    div.modal-window div.window-body { flex-flow: row; }
+    div.modal-window div.window-side-bar { flex: 0 0 280px; padding: 30px 20px 20px 20px; }
+    div.modal-window div.window-layout > div.window-content { flex: 1 1 auto; }
+}
+
+@media(min-width:768px) {
+
+    /*page layout*/
+    div.section-content.flex-boxes.cols-1 > div { flex: 1 1 100%; max-width: 100%; }
+    div.section-content.flex-boxes.cols-2 > div { flex: 1 1 50%; max-width: 50%; }
+    div.section-content.flex-boxes.cols-3 > div { flex: 1 1 33.33%; max-width: 33.33%; }
+    div.section-content.flex-boxes.cols-4 > div { flex: 1 1 33.33%; max-width: 33.33%; }
+    div.section-content.flex-boxes.cols-5 > div { flex: 1 1 33.33%; max-width: 33.33%; }
+    div.section-content.flex-boxes.cols-6 > div { flex: 1 1 33.33%; max-width: 33.33%; }
+}
+
+@media(min-width:980px) {
+
+    /*not ready for mobile*/
+    body.mobile-not-ready div.wrapper { display: flex; }
+    body.mobile-not-ready div.mobile-info { display: none; }
+
+    /*page layout*/
+    div.section-content.flex-boxes.cols-1 > div { flex: 1 1 100%; max-width: 100%; }
+    div.section-content.flex-boxes.cols-2 > div { flex: 1 1 50%; max-width: 50%; }
+    div.section-content.flex-boxes.cols-3 > div { flex: 1 1 33.33%; max-width: 33.33%; }
+    div.section-content.flex-boxes.cols-4 > div { flex: 1 1 25%; max-width: 25%; }
+    div.section-content.flex-boxes.cols-5 > div { flex: 1 1 25%; max-width: 25%; }
+    div.section-content.flex-boxes.cols-6 > div { flex: 1 1 25%; max-width: 25%; }
+}
+
+@media(min-width:1024px) {
+
+    /*flex grid*/
+    div.flex-grid { padding: 6px 20px 6px 20px; flex-flow: row; }
+        div.flex-grid.grid-header { padding: 8px 20px 6px 20px; }
+
+        div.flex-grid > div:not(.action-link) { order: 0; flex: 1 0 100px; max-width: 100px; }
+        div.flex-grid > div.cell-main { flex: 1 1 auto; max-width: none; }
+        div.flex-grid.grid-header > div:not(.cell-main) { display: block; }
+        div.flex-grid > div span { margin-bottom: 0px; font-weight: normal; }
+        div.flex-grid > div:not(.cell-main) span::before { display: none; }
+
+        div.flex-grid > div.centered { text-align: center; }
+        div.flex-grid > div.right { text-align: right; }
+
+        div.flex-grid > div.col-50 { flex: 1 0 50px; max-width: 50px; }
+        div.flex-grid > div.col-60 { flex: 1 0 60px; max-width: 60px; }
+        div.flex-grid > div.col-70 { flex: 1 0 70px; max-width: 70px; }
+        div.flex-grid > div.col-80 { flex: 1 0 80px; max-width: 80px; }
+        div.flex-grid > div.col-90 { flex: 1 0 90px; max-width: 90px; }
+        div.flex-grid > div.col-100 { flex: 1 0 100px; max-width: 100px; }
+        div.flex-grid > div.col-110 { flex: 1 0 110px; max-width: 110px; }
+        div.flex-grid > div.col-120 { flex: 1 0 120px; max-width: 120px; }
+        div.flex-grid > div.col-130 { flex: 1 0 130px; max-width: 130px; }
+        div.flex-grid > div.col-140 { flex: 1 0 140px; max-width: 140px; }
+        div.flex-grid > div.col-150 { flex: 1 0 150px; max-width: 150px; }
+        div.flex-grid > div.col-160 { flex: 1 0 160px; max-width: 160px; }
+        div.flex-grid > div.col-170 { flex: 1 0 170px; max-width: 170px; }
+        div.flex-grid > div.col-180 { flex: 1 0 180px; max-width: 180px; }
+        div.flex-grid > div.col-190 { flex: 1 0 190px; max-width: 190px; }
+        div.flex-grid > div.col-200 { flex: 1 0 200px; max-width: 200px; }
+        div.flex-grid > div.col-210 { flex: 1 0 210px; max-width: 210px; }
+        div.flex-grid > div.col-220 { flex: 1 0 220px; max-width: 220px; }
+        div.flex-grid > div.col-230 { flex: 1 0 230px; max-width: 230px; }
+        div.flex-grid > div.col-240 { flex: 1 0 240px; max-width: 240px; }
+        div.flex-grid > div.col-250 { flex: 1 0 250px; max-width: 250px; }
+        div.flex-grid > div.col-260 { flex: 1 0 260px; max-width: 260px; }
+        div.flex-grid > div.col-270 { flex: 1 0 270px; max-width: 270px; }
+        div.flex-grid > div.col-280 { flex: 1 0 280px; max-width: 280px; }
+        div.flex-grid > div.col-290 { flex: 1 0 290px; max-width: 290px; }
+        div.flex-grid > div.col-300 { flex: 1 0 300px; max-width: 300px; }
+        div.flex-grid > div.col-400 { flex: 1 0 400px; max-width: 400px; }
+        div.flex-grid > div.col-450 { flex: 1 0 450px; max-width: 450px; }
+        div.flex-grid > div.col-500 { flex: 1 0 500px; max-width: 500px; }
+        div.flex-grid > div.col-600 { flex: 1 0 600px; max-width: 600px; }
+        div.flex-grid > div.col-700 { flex: 1 0 700px; max-width: 700px; }
+        div.flex-grid > div.col-800 { flex: 1 0 800px; max-width: 800px; }
+        div.flex-grid > div.col-900 { flex: 1 0 900px; max-width: 900px; }
+
+
+    div.form-info div.row { flex-flow: row; }
+        div.form-info div.row span.tag { flex: 1 0 200px; max-width: 200px; display: flex; justify-content: flex-end; padding-right: 10px; }
+        div.form-info div.row span.lbl { flex: 1 0 auto; font-weight: bold; }
+        div.form-info div.row.reverse span.tag { flex: 1 0 auto; max-width: none; }
+        div.form-info div.row.reverse span.lbl { flex: 1 0 200px; max-width: 200px; display: flex; justify-content: flex-end; justify-content: flex-end; }
+
+    div.steps { flex-flow: row; }
+        div.steps a:not(:first-child)::before { top: 50%; height: 8px; left: -40px; margin-left: auto; margin-top: -4px; width: 38px; }
+}
+
+@media (min-width: 1280px) {
+
+    /*modal window*/
+    div.modal-window div.window-wrapper:not([style*="width"]) { width: 1280px; height: 800px; }
+
+    /*page layout*/
+    div.section-content.flex-boxes.cols-1 > div { flex: 1 1 100%; max-width: 100%; }
+    div.section-content.flex-boxes.cols-2 > div { flex: 1 1 50%; max-width: 50%; }
+    div.section-content.flex-boxes.cols-3 > div { flex: 1 1 33.33%; max-width: 33.33%; }
+    div.section-content.flex-boxes.cols-4 > div { flex: 1 1 25%; max-width: 25%; }
+    div.section-content.flex-boxes.cols-5 > div { flex: 1 1 20%; max-width: 20%; }
+    div.section-content.flex-boxes.cols-6 > div { flex: 1 1 20%; max-width: 20%; }
+}
+
+
+@media (min-width: 1440px) {
+
+    /*page layout*/
+    div.section-content.flex-boxes.cols-1 > div { flex: 1 1 100%; max-width: 100%; }
+    div.section-content.flex-boxes.cols-2 > div { flex: 1 1 50%; max-width: 50%; }
+    div.section-content.flex-boxes.cols-3 > div { flex: 1 1 33.33%; max-width: 33.33%; }
+    div.section-content.flex-boxes.cols-4 > div { flex: 1 1 25%; max-width: 25%; }
+    div.section-content.flex-boxes.cols-5 > div { flex: 1 1 20%; max-width: 20%; }
+    div.section-content.flex-boxes.cols-6 > div { flex: 1 1 16.66%; max-width: 16.66%; }
+}
